@@ -1,7 +1,7 @@
 def turn_count(board) 
   counter = 1 
   board.each { | position |
-    if position == 'X' || position == 'O'
+    if (position == 'X' || position == 'O')
       counter += 1 
     end
   }
