@@ -14,4 +14,5 @@ def current_player(board)
   if (counter + 1) % 2 == 0 
     player = 'O'
   end
+  return player
 end
